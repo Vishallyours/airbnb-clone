@@ -11,7 +11,7 @@ import ClientOnly from "./components/ClientOnly";
 interface HomeProps {
   searchParams: IListingsParams
 };
-export const dynamic = 'auto';
+export const dynamic = 'force-dynamic';
 // 'auto' | 'force-dynamic' | 'error' | 'force-static'
 
 const Home = async ({ searchParams }: HomeProps) => {
